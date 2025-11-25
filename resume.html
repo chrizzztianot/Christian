@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio| Resume</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+  img{
+    /* To adjust the size of the picture, we add fixed width and height. */
+    width: 150px; /* Set the desired width (e.g., 150px) */
+    height: 150px; /* Set the desired height (must match width for a perfect circle) */
+    
+    /* Keeping the original float: left, but using a dark theme border */
+    border-radius: 50%;
+    float: left;
+    margin-right: 40px; 
+    border: 5px solid #333;
+    object-fit: cover; /* This ensures the image covers the area without being stretched */
+  }
+</style>
+<body>
+  <header>
+    <div class="name">Christian P. Lungat</div>
+    <nav>
+      <ul id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="resume.html" class="active">Resume</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="testimonial.html">Testimonials</a></li>
+      </ul>
+      <div id="menu-toggle" class="menu-icon">☰</div>
+    </nav>
+  </header>
+
+<section class="content">
+  <img src="christian.jpg" alt="Christian P. Lungat">
+  <h1>Christian P. Lungat</h1>
+  
+  <h2 style="margin-top: 50px;">Personal Profile</h2>
+  <p style="margin-top: 15px;"> 
+    A motivated BSIT student specializing in Web Development, 
+    passionate about coding clean, efficient, and responsive digital solutions. 
+    Skilled in fundamental web technologies like HTML, CSS, and basic JavaScript, 
+    with a strong interest in combining technical knowledge and problem-solving to build real-world applications. 
+    Eager to apply programming skills in a collaborative, fast-paced environment.
+  </p>
+
+  <dl>
+    <dt>Education</dt>
+    <dd> 
+      <b>-Bachelor of Science in Information Technology </b><br>
+      <b>-Studies at Holyname University</b> <br>
+      <b>-Senior HighSchool:</b> Dauis National High School <br>
+      <b>-Junior Highschool:</b> International Academe of EnScieMa
+    </dd>
+  </dl>
+  
+  <dl>
+    <dt>Skills</dt>
+    <dd> 
+      <b>-Front-end Development (HTML, CSS) </b><br>
+      <b>-Basic JavaScript and DOM Manipulation</b> <br>
+      <b>-Database Management (MySQL)</b> <br>
+      <b>-UI Prototyping (Figma)</b> <br>
+    </dd>
+  </dl>
+</section>
+
+  <footer>
+    <p>&copy; 2024 Christian P. Lungat. All rights reserved.</p>
+  </footer>
+</body>
+</html>

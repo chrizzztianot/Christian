@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Home</title>
+  <link rel="stylesheet" href="style.css"> 
+  <style>
+    /* Retained for your specific image style */
+    img{
+        border: 10px inset;
+        border-radius: 50%;
+        border-color: #333; /* Updated border color for dark theme */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Christian P. Lungat</div>
+    <nav>
+      <ul id="nav-links"> 
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="project.html">Projects</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="hobbies.html">Hobbies</a></li>
+        <li><a href="testimonial.html">Testimonials</a></li>
+      </ul>
+      <div id="menu-toggle" class="menu-icon">☰</div> 
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Christian P. Lungat</h1>
+    <p>
+      Hi, I'm Christian P. Lungat. Soon to be your <span class="highlight">Web Developer</span>.
+      A BSIT student focused on building robust and scalable digital applications. 
+      I transform ideas into functional websites and applications using modern coding practices.
+    </p>
+    <a href="resume.html" class="btn" style="margin-top: 40px;">View Resume</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Christian P. Lungat. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Simple JS for mobile menu toggle to work with new CSS
+    const menuToggle = document.getElementById('menu-toggle');
+    const navLinks = document.getElementById('nav-links');
+
+    if (menuToggle && navLinks) {
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('open');
+        });
+    }
+  </script>
+</body>
+</html>

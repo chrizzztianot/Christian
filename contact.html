@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio| Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="name">Christian P. Lungat</div>
+    <nav>
+      <ul id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="education.html">Education</a></li>
+      </ul>
+      <div id="menu-toggle" class="menu-icon">☰</div>
+    </nav>
+  </header>
+
+  <section class="content">
+    <h1>Contact Me</h1> 
+    <p style="text-align: center; color: var(--color-text-secondary); margin-bottom: 40px; font-size: 1.1rem;">
+      I'm currently looking for collaboration opportunities. Feel free to reach out!
+    </p>
+
+    <form id="contactForm" action="mailto:chrisgaming1801@gmail.com" method="post" enctype="text/plain">
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+      <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button> 
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Christian P. Lungat. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // (Your mobile menu JS logic here)
+  </script>
+</body>
+</html>
